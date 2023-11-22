@@ -4,7 +4,7 @@ data "aws_instance" "demo" {
 
 }
 
-# Using data source to pull info in aws about ami id
+# Using data source to pull info in AWS about the latest ami id
 data "aws_ami" "ami1" {
   most_recent      = true
   owners           = ["amazon"]
