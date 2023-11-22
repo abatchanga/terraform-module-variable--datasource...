@@ -1,3 +1,4 @@
+# import a module to create ec2 instance from another folder
 module "server1" {
   source = "../modules/ec2"
   ami = "ami-05c13eab67c5d8861"
@@ -5,6 +6,6 @@ module "server1" {
   instance_type = "t3.small"
   name = "DEV-from module"
 }
-output "publi-ip" {
+output "public-ip" {
  value = module.server1.public-ip 
 }
