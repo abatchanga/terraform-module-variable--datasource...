@@ -5,7 +5,7 @@ Terraform provisioners are of three types -
 file
 local-exec
 remote-exec
-1.File provisioner - The file provisioner will help you to copy the file securely from the local machine or development machine to the remote Ec2 instance.
+1. File provisioner - The file provisioner will help you copy the file securely from the local machine or development machine to the remote Ec2 instance.
 
 Local provisioner - The local-exec provisioner invokes a local executable after a resource is created. This invokes a process on the machine running Terraform, not on the resource. It will help you to run the shell command onto your local machine instead of the remote EC2 instance. The local provisioners are
 
